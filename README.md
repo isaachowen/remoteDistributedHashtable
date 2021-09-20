@@ -24,7 +24,7 @@ Messages are passed between servers and clients via a two-phase commit, which is
 For this project, the data is stored redundantly, on two machines. These machines must share the same information at all times so if one machine dies, no data is lost. 
 
 Visualizing all possible communication patterns between the clients and servers was very useful for creating and verifying the two-phase commit protocol. When a client starts communicating with a set of servers in order to put or get a key-value pair from the remote distributed hashtable, a state-space machine is implicitly created, which is represented in the visual below.
-* insert image here 
+![Remote Distributed Hashtable](https://user-images.githubusercontent.com/31664870/134083045-5edf62df-1cfd-4719-9eff-396598f30a93.jpg)
 
 ### Lessons 
 * Printing out very organized message statements with full information was an innovation that made debugging more manageable easier. 
@@ -39,5 +39,8 @@ I used a set of 9 bash scripts to ease the process of updating and managing the 
 
 ### implementation architecture
 In my implementation I used 5 raspberry pi nodes that are connected over Ethernet via an Ethernet switch (using a TCP connection). The maximal rate of flow into between any two nodes is 100 Mbps full duplex. The communication rate is also potentially bottlenecked constricted by the 100Mbps bitrate of each Ethernet switch’s outgoing ports. The pis are connected to the switch via USB 3.0 to Ethernet converters, which have a bitrate of 300+ Mbps. The pis can also write at a rate of roughly 300 Mbps. Each machine runs two binary executables: a client binary, and a server binary. See image below. 
-* insert image here
+<img width="189" alt="Capture" src="https://user-images.githubusercontent.com/31664870/134083145-e2f94eb8-a311-4f8f-816c-1ab88b5995cf.PNG">
+
+
+
 
