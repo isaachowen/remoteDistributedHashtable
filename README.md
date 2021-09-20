@@ -39,6 +39,7 @@ I used a set of 9 bash scripts to ease the process of updating and managing the 
 
 ### implementation architecture
 In my implementation I used 5 raspberry pi nodes that are connected over Ethernet via an Ethernet switch (using a TCP connection). The maximal rate of flow into between any two nodes is 100 Mbps full duplex. The communication rate is also potentially bottlenecked constricted by the 100Mbps bitrate of each Ethernet switch’s outgoing ports. The pis are connected to the switch via USB 3.0 to Ethernet converters, which have a bitrate of 300+ Mbps. The pis can also write at a rate of roughly 300 Mbps. Each machine runs two binary executables: a client binary, and a server binary. See image below. 
+
 <img width="189" alt="Capture" src="https://user-images.githubusercontent.com/31664870/134083145-e2f94eb8-a311-4f8f-816c-1ab88b5995cf.PNG">
 
 
