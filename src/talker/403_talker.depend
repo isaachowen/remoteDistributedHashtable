@@ -1,0 +1,9 @@
+# depslib dependency file v1.0
+1580939163 source:/home/isaac/Desktop/CSE_403/403_talker/main.cpp
+	<iostream>
+	<stdio.h>
+	<sys/socket.h>
+	<arpa/inet.h>
+	<unistd.h>
+	<string.h>
+

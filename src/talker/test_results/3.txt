@@ -1,0 +1,6 @@
+Key_size: 2
+Cumulative_operation_time_(us): 1728546
+Average latency (s): 0.00172855
+Cumulative_operation_time_(s): 1.72855
+Average_throughput_(ops/sec): 578.521
+Total_ops: 1000

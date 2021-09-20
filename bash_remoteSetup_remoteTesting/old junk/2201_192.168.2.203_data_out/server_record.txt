@@ -1,0 +1,26 @@
+=======================================================
+MULTIPUT!
+VVV Thread 2 receive s/f: 256
+(SVR:-1) / (CNT:0) / (THD:2) / (MP#:1) / (KEY:bssm) / (VAL:21) / (CMD:1) / (STS:2) / (ORDR:1)
+VVV Thread 2 send s/f: 256
+(SVR:-1) / (CNT:0) / (THD:2) / (MP#:1) / (KEY:bssm) / (VAL:21) / (CMD:1) / (STS:1) / (ORDR:2)
+VVV Thread 2 receive s/f: 256
+(SVR:-1) / (CNT:0) / (THD:2) / (MP#:2) / (KEY:ucxx) / (VAL:68) / (CMD:1) / (STS:2) / (ORDR:1)
+VVV Thread 2 send s/f: 256
+(SVR:-1) / (CNT:0) / (THD:2) / (MP#:2) / (KEY:ucxx) / (VAL:68) / (CMD:1) / (STS:3) / (ORDR:2)
+VVV Thread 2 receive s/f: 256
+(SVR:-1) / (CNT:0) / (THD:2) / (MP#:3) / (KEY:bmtu) / (VAL:73) / (CMD:1) / (STS:2) / (ORDR:1)
+VVV Thread 2 send s/f: 256
+(SVR:-1) / (CNT:0) / (THD:2) / (MP#:3) / (KEY:bmtu) / (VAL:73) / (CMD:1) / (STS:3) / (ORDR:2)
+VVV Thread 2 receive s/f: 256
+(SVR:-1) / (CNT:0) / (THD:2) / (MP#:1) / (KEY:bssm) / (VAL:21) / (CMD:1) / (STS:4) / (ORDR:3)
+VVV Thread 2 send s/f: 256
+(SVR:-1) / (CNT:0) / (THD:2) / (MP#:1) / (KEY:bssm) / (VAL:21) / (CMD:1) / (STS:5) / (ORDR:4)
+VVV Thread 2 receive s/f: 0
+(SVR:-1) / (CNT:0) / (THD:2) / (MP#:1) / (KEY:bssm) / (VAL:21) / (CMD:1) / (STS:4) / (ORDR:3)
+VVV Thread 2 send s/f: 256
+(SVR:-1) / (CNT:0) / (THD:2) / (MP#:1) / (KEY:bssm) / (VAL:21) / (CMD:1) / (STS:5) / (ORDR:4)
+VVV Thread 2 receive s/f: 0
+(SVR:-1) / (CNT:0) / (THD:2) / (MP#:1) / (KEY:bssm) / (VAL:21) / (CMD:1) / (STS:4) / (ORDR:3)
+VVV Thread 2 send s/f: 256
+(SVR:-1) / (CNT:0) / (THD:2) / (MP#:1) / (KEY:bssm) / (VAL:21) / (CMD:1) / (STS:5) / (ORDR:4)
